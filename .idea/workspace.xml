@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,6 +33,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 3/homepage&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -72,6 +74,12 @@
       <workItem from="1665776466005" duration="37000" />
       <workItem from="1665776673298" duration="29000" />
       <workItem from="1665831199211" duration="398000" />
+      <workItem from="1666165240590" duration="3254000" />
+      <workItem from="1666365405663" duration="596000" />
+      <workItem from="1666453185187" duration="5697000" />
+      <workItem from="1666464385248" duration="622000" />
+      <workItem from="1666625853660" duration="2654000" />
+      <workItem from="1666716364739" duration="4741000" />
     </task>
     <servers />
   </component>
