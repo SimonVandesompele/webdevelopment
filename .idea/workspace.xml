@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,28 +26,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 3/homepage&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 7",
+    "list.type.of.created.stylesheet": "CSS",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 3\homepage" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 3" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_2\styles" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\Opdracht persoonlijke homepagina met css\styles" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_2" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_2\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 6\opdracht_1" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 6\opdracht_6" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 6" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 6\opdracht_5\styles" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 6\opdracht_5" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_Kalender" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_Kalender\styles" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_2\images" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_2" />
+      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_1\style" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,7 +89,10 @@
       <workItem from="1666767863378" duration="5975000" />
       <workItem from="1666809352241" duration="4000000" />
       <workItem from="1666890557809" duration="5386000" />
-      <workItem from="1666896494032" duration="118000" />
+      <workItem from="1666896494032" duration="161000" />
+      <workItem from="1667981837089" duration="4736000" />
+      <workItem from="1667986984582" duration="83000" />
+      <workItem from="1668263778748" duration="9873000" />
     </task>
     <servers />
   </component>
