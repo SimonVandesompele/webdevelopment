@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+
+.kolom{
+    display: inline-block;
+    box-sizing: border-box;
+    border-style: double;
+    border-width: 2px;
+    width: 50%;
+    padding:10px;
+    margin: 10px;
+
+}
