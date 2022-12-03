@@ -1,0 +1,32 @@
+article:nth-child(2n) > p > img{
+        float: right ;
+}
+
+article:nth-child(4) > p > img{
+    float: right ;
+}
+
+article:nth-child(1) > p > img {
+    float: left;
+}
+
+article:nth-child(3) > p > img {
+    float: left;
+}
+
+article{
+    border: solid 2px;
+    margin: 10px;
+    height: 250px;
+}
+article h2{
+    margin: 10px;
+}
+
+article p{
+    margin: 10px;
+}
+
+p img{
+    margin: 10px;
+}

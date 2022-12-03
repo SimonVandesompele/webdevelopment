@@ -4,13 +4,12 @@ body{
     font-size: 1.2em;
 }
 
-header{
+header {
     display: block;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 header img{
     width: 85%;

@@ -1,0 +1,116 @@
+html{
+    width: 960px;
+    margin: auto;
+
+}
+body {
+    font-family: Arial, Helvetica;
+
+}
+header {
+    background-image: url("../fotos/bgsky3.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+header p {
+    color: darkblue;
+    text-align: center;
+}
+
+ header img{
+     position:relative;
+     right:-645px;
+     bottom: 155px;
+}
+
+.bovenste{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.onderste {
+    font-size: 240%;
+    font-weight: bold;
+}
+
+aside{
+    float: right;
+    width: 250px;
+    border: 1px solid;
+    border-color: #999999;
+    background-color: #dddddd;
+}
+aside p{
+    font-size: 90%;
+    padding-left: 10px;
+    color: #666666;
+}
+aside h3{
+    background-color: blue;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+
+
+main{
+    width: 700px;
+    padding-right: 10px;
+}
+main div > img {
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+article{
+    padding: 20px 30px 20px 140px;
+    background-color: white;
+    color: black    ;
+}
+
+article p > span {
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+    margin-right: 15px;
+}
+
+section div > img{
+    height: 180px;
+    width: 180px;
+    background: white;
+    border: 1px dotted #999999;
+    margin: 9px;
+    padding: 10px;
+}
+
+nav{
+    line-height: 2em;
+    background-color: #666666;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.block{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+}
