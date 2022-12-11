@@ -1,0 +1,17 @@
+div {
+    height: 170px;
+    border: solid white 8px;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.lichtgrijs
+{
+    background-color: gray;
+}
+
+.donkergrijs2
+{
+    background-color: lightgray;
+}
+
