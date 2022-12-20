@@ -26,17 +26,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 10/Opdracht Personal Homepage/assets",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 10/Opdracht Personal Homepage/assets&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht Personal Homepage\assets" />
@@ -46,11 +46,11 @@
       <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\Opdracht persoonlijke homepagina met css\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 11\exercises" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 11" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 11\styles" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht_Personal_Homepage" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht_Bootstrap\Opdracht_2\styles" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht_Bootstrap\Opdracht_2" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht_Bootstrap" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,7 +107,10 @@
       <workItem from="1670079698343" duration="2954000" />
       <workItem from="1670400969933" duration="3773000" />
       <workItem from="1670600959034" duration="4350000" />
-      <workItem from="1670751195372" duration="4047000" />
+      <workItem from="1670751195372" duration="4183000" />
+      <workItem from="1670792367748" duration="20000" />
+      <workItem from="1671005349354" duration="5098000" />
+      <workItem from="1671548038902" duration="595000" />
     </task>
     <servers />
   </component>
