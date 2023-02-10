@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: auto;
+   background-image: url(../fotos/pagebackground.png);
+    background-position: center;
+}
+
+header{
+    display: inline-block;
+    background-image: url(../fotos/bgsky3.jpg);
+    background-repeat: no-repeat;
+    width: 956px;
+    height: 200px ;
+    color: darkblue;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.bovenste{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.onderste{
+    font-size: 240%;
+    font-weight: bold;
+}
+
+header img{
+    position: relative;
+    float: right;
+    bottom: 160px;
+    right: 90px;
+}
+
+aside {
+    float: right;
+    width: 250px;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+
+}
+aside p{
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside h3{
+    font-size: 120%;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+main{
+    width: 700px;
+    padding-right:10px ;
+}
+
+article{
+    background-color: white;
+    padding: 20px 30px 20px 140px;
+
+}
+main > div{
+    float: left;
+   padding-left: 20px;
+    padding-top: 20px;
+}
+
+article span {
+    color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+
+
+}
+section div > img{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    border: 1px dotted #999999;
+    margin: 10px;
+}
+nav{
+    background-color: #666666;
+    color: white;
+    line-height: 2em;
+
+}
+.block{
+    padding-left: 120px;
+    display: inline-block;
+}
+.block a:hover{
+    color: darkred;
+}
+.block a{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+

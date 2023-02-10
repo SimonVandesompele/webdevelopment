@@ -54,5 +54,5 @@ tr:last-child td:nth-child(7){
 #vrij {
     background-color: rgb(250,120,120);
 }
-
+tr:nth-child(1) > td:nth-child(1)
 

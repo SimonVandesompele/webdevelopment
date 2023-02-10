@@ -1,0 +1,117 @@
+main {
+    background-color: white;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+main div {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.block.block1 {
+    height: 70px;
+    background-color: purple;
+}
+
+.block.block2 {
+    height: 70px;
+    background-color: royalblue;
+}
+
+.block.block3 {
+    height: 70px;
+    background-color: steelblue;
+}
+
+.block.block4 {
+    height: 70px;
+    background-color: cornflowerblue;
+}
+
+@media screen and (min-width: 320px) {
+    .block.block1 {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background-color: purple;
+    }
+
+    .block.block2 {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        background-color: royalblue;
+    }
+
+    .block.block3 {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        background-color: steelblue;
+    }
+
+    .block.block4 {
+        grid-row-start: 4;
+        grid-row-end: 4;
+        background-color: cornflowerblue;
+    }
+
+}
+
+@media screen and (min-width: 772px) {
+    .block.block1 {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        background-color: purple;
+    }
+
+    .block.block2 {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background-color: royalblue;
+    }
+
+    .block.block3 {
+        grid-row-start: 3;
+        grid-row-end: 3;
+        background-color: steelblue;
+    }
+
+    .block.block4 {
+        grid-row-start: 4;
+        grid-row-end: 4;
+        background-color: cornflowerblue;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: repeat(3,auto);
+    }
+    .block.block1 {
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+
+    .block.block2 {
+        grid-column: 1 / 4;
+        grid-row: 2;
+    }
+
+    .block.block3 {;
+        grid-row: 3;
+        grid-column: 1 / 2;
+    }
+
+    .block.block4 {
+        grid-column: 2 / 4;
+        grid-row: 3;
+    }
+
+
+}

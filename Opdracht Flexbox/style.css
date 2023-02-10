@@ -31,7 +31,7 @@ body {
   max-inline-size: 350px;
 
   /* tip: gebruik flex-direction"  */
-  display: flex;
+display: flex;
   flex-direction: column;
 
 }
@@ -55,7 +55,6 @@ body {
 /* foto krijgt een cirkelvorm */
 .card img {
   border-radius: 100%;
-  border: .25em solid white;
 }
 
 .name {

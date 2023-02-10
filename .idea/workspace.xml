@@ -10,8 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,25 +33,26 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 10/Opdracht Personal Homepage/assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/samoefeningen/cocktailbar_InBootstrap Sam&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\samoefeningen\cocktailbar_InBootstrap Sam" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\samoefeningen\cocktailbar_InBootstrap Sam\images" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\z Kitchn sam" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht Personal Homepage\assets" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht Personal Homepage\assets\img" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\opdracht_2\styles" />
-      <recent name="C:\Users\Simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 7\Opdracht persoonlijke homepagina met css\styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 11\exercises" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 11" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 11\styles" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht_Personal_Homepage" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 14" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 14\leeg project" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Rekenmachine\scripts" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Rekenmachine" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Examen_Januari_Simon_Vandesompele\styles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,7 +112,24 @@
       <workItem from="1670751195372" duration="4183000" />
       <workItem from="1670792367748" duration="20000" />
       <workItem from="1671005349354" duration="5098000" />
-      <workItem from="1671548038902" duration="595000" />
+      <workItem from="1671548038902" duration="760000" />
+      <workItem from="1673008016516" duration="1038000" />
+      <workItem from="1673009528406" duration="12785000" />
+      <workItem from="1673029226158" duration="2201000" />
+      <workItem from="1673033918647" duration="3871000" />
+      <workItem from="1673881170791" duration="595000" />
+      <workItem from="1673893401524" duration="1480000" />
+      <workItem from="1673949214662" duration="460000" />
+      <workItem from="1673949691008" duration="6373000" />
+      <workItem from="1673956146933" duration="128000" />
+      <workItem from="1673964346574" duration="11625000" />
+      <workItem from="1673980143721" duration="13004000" />
+      <workItem from="1673995133161" duration="211000" />
+      <workItem from="1674025241278" duration="825000" />
+      <workItem from="1674027751203" duration="8538000" />
+      <workItem from="1674036499473" duration="21000" />
+      <workItem from="1675843670653" duration="1360000" />
+      <workItem from="1675849703666" duration="2488000" />
     </task>
     <servers />
   </component>

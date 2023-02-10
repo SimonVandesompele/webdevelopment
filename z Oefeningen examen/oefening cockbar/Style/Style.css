@@ -1,0 +1,72 @@
+body{
+    font-family:Verdana, Helvetica, Arial,sans-serif;
+    width: 95%;
+    font-size: 1.2em;
+}
+header{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img{
+    width: 85%;
+    height: 85%;
+}
+a{
+    color: black;
+}
+
+section{
+    width: 70%;
+    padding: 30px;
+}
+
+section h1{
+    color: cadetblue;
+    font-size: 1.5em;
+}
+
+section h2{
+    color: #007e7e;
+    font-size: 1.3em;
+}
+.specials{
+    float: right;
+    width: 25%;
+    border: 2px solid cadetblue;
+    background-image:url(../images/cocktail.gif);
+    background-repeat: repeat-x;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.specials h2{
+    color: red;
+}
+
+.specials a:hover{
+    color: brown;
+}
+
+#guarantee{
+    background-image: url(../images/background.gif);
+    background-repeat: no-repeat;
+    background-color: #a7cece;
+    margin: 30px;
+    padding: 20px;
+    padding-left: 70px;
+    color: #444444;
+    border: 3px dotted;
+    border-color: white;
+
+}
+footer{
+    font-size: 0.6em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+}

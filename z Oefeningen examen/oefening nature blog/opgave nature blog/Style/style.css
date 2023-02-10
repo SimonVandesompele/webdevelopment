@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+
+.header1 {
+    background-image:url(../header.jpg);
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+nav{
+  background-color: darkslategrey;
+    padding: 5px;
+
+}
+
+nav a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
+article{
+   background-color: lightgray;
+}
+
+article h1{
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -67,7 +67,8 @@ main div > img {
 }
 
 article{
-    padding: 20px 30px 20px 140px;
+    padding: 20px 30px 20px 140fpx;
+
     background-color: white;
     color: black    ;
 }
