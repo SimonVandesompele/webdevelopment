@@ -24,6 +24,6 @@ function voegNaamToe()
 
 function ConverteerNaarString()
 {
-    familieleden.join()
+    familieleden.toString()
     console.log(familieleden)
 }
