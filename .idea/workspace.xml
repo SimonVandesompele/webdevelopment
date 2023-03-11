@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ee9a52-e7e0-4caf-901e-1c73ed62df14" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +36,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/simon/OneDrive - Hogeschool VIVES/Web Development/Github/webdevelopment/Labo 15&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/simon/OneDrive - Hogeschool VIVES/2de semester/Web Development/Github/webdevelopment&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -48,11 +55,11 @@
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht Personal Homepage\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\webdevelopment" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 15" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\even verplaatsen labo 15" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\labo 3.1" />
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 16" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 16\Opdracht_01" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -142,6 +149,12 @@
       <workItem from="1677946457913" duration="197000" />
       <workItem from="1677959016401" duration="1135000" />
       <workItem from="1677960222386" duration="1041000" />
+      <workItem from="1678375490956" duration="65000" />
+      <workItem from="1678375880640" duration="2000" />
+      <workItem from="1678443905763" duration="27000" />
+      <workItem from="1678447058171" duration="902000" />
+      <workItem from="1678448048827" duration="1305000" />
+      <workItem from="1678550187207" duration="5807000" />
     </task>
     <servers />
   </component>
