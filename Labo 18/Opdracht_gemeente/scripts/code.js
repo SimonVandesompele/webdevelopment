@@ -7,8 +7,9 @@ const setup = () => {
         console.log(gemeentes)
     } while (windowWaarde.toLowerCase() !== "stop")
     gemeentes.pop()
-    console.log(gemeentes)
-    let lijst = document.getElementById("gemeente");
+    gemeentes.sort()
+
+    let lijst = document.getElementById("gemeente").value;
     lijst.innerHTML = gemeentes;
 }
 window.addEventListener("load", setup);
