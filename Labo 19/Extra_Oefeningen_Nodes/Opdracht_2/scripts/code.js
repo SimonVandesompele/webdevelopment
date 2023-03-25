@@ -7,7 +7,7 @@ const setup = () => {
     }
 
     let picture = document.createElement("img");
-    picture.setAttribute("src", "Images/poesj.PNG")
+    picture.setAttribute("src", "Images/poesj.png")
     document.body.appendChild(picture);
 }
 window.addEventListener("load", setup);
