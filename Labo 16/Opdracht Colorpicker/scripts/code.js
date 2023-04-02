@@ -6,11 +6,8 @@ const setup = () => {
 
 
 
-    green[0].addEventListener("change", update)
     green[0].addEventListener("input", update)
-    blue[0].addEventListener("change", update)
     blue[0].addEventListener("input", update)
-    red[0].addEventListener("change", update)
     red[0].addEventListener("input", update)
     box[0].style.backgroundColor="rgb(0,0,0)";
 

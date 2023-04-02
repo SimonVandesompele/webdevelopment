@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -55,11 +55,11 @@
       <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\Web Development\Github\webdevelopment\Labo 10\Opdracht Personal Homepage\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 19\Demo_event" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 19" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 18\Opdracht_formvalidatie" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 18\Opdracht_trigrams" />
-      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 18" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 20" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 20\Demo_sprites_animatie" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 20\Demo_sprites" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 20\Demo_03_setTimeOut_herhaald" />
+      <recent name="C:\Users\simon\OneDrive - Hogeschool VIVES\2de semester\Web Development\Github\webdevelopment\Labo 20\Demo_02_setTimeOut_eenmalig" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -161,7 +161,15 @@
       <workItem from="1679395010422" duration="5000" />
       <workItem from="1679472301942" duration="5196000" />
       <workItem from="1679755764401" duration="2175000" />
-      <workItem from="1679759811964" duration="3302000" />
+      <workItem from="1679759811964" duration="3680000" />
+      <workItem from="1679948006429" duration="1610000" />
+      <workItem from="1679950226777" duration="597000" />
+      <workItem from="1680030169859" duration="4900000" />
+      <workItem from="1680072681467" duration="10042000" />
+      <workItem from="1680097012043" duration="5968000" />
+      <workItem from="1680161416603" duration="16000" />
+      <workItem from="1680175158253" duration="4435000" />
+      <workItem from="1680447982205" duration="6206000" />
     </task>
     <servers />
   </component>

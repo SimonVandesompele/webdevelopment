@@ -2,46 +2,36 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css">
     <title>Title</title>
 </head>
 <body>
-
-<div>
-    <label for="roker">Is roker</label>
-    <input type="checkbox" id="roker" name="roker">
-</div>
-
-<div>
-    Moedertaal <input type="radio" id="Nederlands" name="taal" value="nl"><label>Nederlands</label> <input type="radio" id="Frans" name="taal" value="fr"><label>Frans</label> <input type="radio" id="Engels" name="taal" value="en"><label>Engels</label>
-</div>
-
-<div>
-    <label for="buurland">Favoriete buurland</label>
-    <select id="buurland" name="buurland">
-        <option value="Nederlands">Nederlands</option>
-        <option value="Frankrijk">Frankrijk</option>
-        <option value="Duitsland">Duitsland</option>
-    </select>
-</div>
-
-<div>
-    <label for="bestelling">bestelling:</label>
-    <select name="bestelling" id="bestelling" multiple>
-        <option value="aardappelen">aardappelen</option>
-        <option value="brood">brood</option>
-        <option value="melk">melk</option>
-        <option value="biefstuk">biefstuk</option>
-        <option value="chips">chips</option>
-        <option value="krant">krant</option>
-    </select>
-</div>
-
-<div>
-    <input id="resultaat" type="button" value="toon resultaat" />
-    </div>
-<script type="text/javascript" charset="utf-8"
-        src="scripts/code.js"></script>
-</div>
+<form>
+    <label for="roker">is roker<input type="checkbox" id="roker" name="roker"></label>
+    <br>
+    Moedertaal<input type="radio" name="radio" id="nederlands"><label for="nederlands">Nederland</label><input type="radio" name="radio" id="frans"><label for="frans">Frans</label><input type="radio" name="radio" id="engels"><label for="engels">Engels</label>
+    <br>
+    <label>Favoriete buurland
+        <select name="favorieteBuurland">
+            <option>Frankrijk</option>
+            <option>Nederland</option>
+            <option>Luxemburg</option>
+            <option>Duitsland</option>
+        </select>
+    </label>
+    <br>
+    <label>bestellingen
+        <select size="6" name="bestellingen" multiple>
+            <option>aardappelen</option>
+            <option>brood</option>
+            <option>melk</option>
+            <option>biefstuk</option>
+            <option>chips</option>
+            <option>krant</option>
+        </select>
+    </label>
+    <br>
+    <input type="button" name="submit" value="Toon resultaat">
+</form>
+<script src="scripts/code.js"></script>
 </body>
 </html>

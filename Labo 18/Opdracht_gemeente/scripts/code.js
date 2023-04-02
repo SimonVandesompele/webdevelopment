@@ -9,7 +9,12 @@ const setup = () => {
     gemeentes.pop()
     gemeentes.sort()
 
-    let lijst = document.getElementById("gemeente").value;
-    lijst.innerHTML = gemeentes;
+    let lijst = document.getElementById("gemeente")
+    let code = ""
+    for (let i = 0; i < gemeentes.length; i++) {
+        code += "<option>"+ gemeentes[i]+ "</option>"
+    }
+    lijst.innerHTML = code
+
 }
 window.addEventListener("load", setup);

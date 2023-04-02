@@ -1,45 +1,46 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-	<title>Oefening</title> 
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
-</head> 
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<title>Oefening</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<meta charset="UTF-8">
+</head>
 
-<body> 
+<body>
 
-	<form>
-		<div class="line" id="Voornaam">
-			<label for="Voornaam">Voornaam</label>
-			<input type="text" id="typeVoornaam">
-			<span class="errorMessage"></span>
-		</div>
+<form>
+	<div class="line">
+		<label for="txtVoornaam">Voornaam</label>
+		<input type="text" id="txtVoornaam" />
+		<span class="errorMessage" id="errVoornaam"></span>
+	</div>
+	<br>
+	<div class="line">
+		<label for="txtAchternaam">achternaam</label>
+		<input type="text" id="txtAchternaam" />
+		<span class="errorMessage" id="errAchternaam"></span>
+	</div>
+	<br>
+	<div class="line">
+		<label for="txtDate">Date</label>
+		<input type="text" id="txtDate" />
+		<span class="errorMessage" id="errDate"></span>
+	</div>
+	<br>
+	<div class="line">
+		<label for="txtEmail">Email</label>
+		<input type="text" id="txtEmail" />
+		<span class="errorMessage" id="errEmail"></span>
+	</div>
+	<br>
+	<div class="line">
+		<label for="txtAantalKinderen">aantal kinderen</label>
+		<input type="text" id="txtAantalKinderen" />
+		<span class="errorMessage" id="errAantalKinderen"></span>
+	</div>
+	<input type="button" id="btnValideer" value="Valideer" />
 
-		<div class="line" id="Achternaam">
-			<label for="Achternaam">Achternaam</label>
-			<input type="text" id="typeAchternaam">
-			<span class="errorMessage"></span>
-		</div>
-
-		<div class="line" id="Geboortedatum">
-			<label for="Geboortedatum">Geboortedatum</label>
-			<input type="text" id="typeGeboortedatum">
-			<span class="errorMessage"></span>
-		</div>
-
-		<div class="line" id="Email">
-			<label for="Email">Email</label>
-			<input type="text" id="typeEmail">
-			<span class="errorMessage"></span>
-		</div>
-
-		<div class="line" id="AantalKinderen">
-			<label for="AantalKinderen">AantalKinderen</label>
-			<input type="text" id="typeKinderen">
-			<span class="errorMessage"></span>
-		</div>
-		<input type="button" id="btnValideer" value="Valideer"></input>
-	</form>
-
-</body> 
+</form>
+<script src="scripts/code.js"></script>
+</body>
 </html> 

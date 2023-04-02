@@ -3,9 +3,10 @@ const setup = () => {
     btnKopieer.addEventListener("click", kopieer);
 }
 const kopieer = () => {
-    let txtInput = document.getElementById("txtInput").value;
-    let tekst = txtInput.toString();
-    let pElement = document.getElementById("txtOutput");
-    pElement.innerHTML = tekst;
+    let inputTekst = document.getElementById("txtInput").value
+    let tekst = inputTekst.toString();
+    let outputTekst = document.getElementById("txtOutput")
+    outputTekst.innerHTML = tekst;
+
 }
 window.addEventListener("load", setup);
