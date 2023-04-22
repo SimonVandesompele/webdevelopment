@@ -10,7 +10,7 @@ const setup = () => {
     gemeentes.sort()
 
     let lijst = document.getElementById("gemeente")
-    let code = ""
+
     for (let i = 0; i < gemeentes.length; i++) {
         code += "<option>"+ gemeentes[i]+ "</option>"
     }
