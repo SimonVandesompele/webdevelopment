@@ -1,5 +1,5 @@
 let personen = [];
-
+let nieuwPersoon = false
 // Event listener (btnBewaar click)
 // Bewaar de wijzigingen die in de user interface werden aangebracht
 const bewaarBewerktePersoon = () => {
@@ -11,9 +11,9 @@ const bewaarBewerktePersoon = () => {
     let geboortedatumtxt = document.getElementById("txtGeboorteDatum").value
     let emailtxt = document.getElementById("txtEmail").value
     let aantalKinderentxt = document.getElementById("txtAantalKinderen").value
-    if (valideer() === true) {
+    if (valideer() === true && nieuwPersoon === false) { //maakt pas een persoon aan als alle velden correct zijn ingevuld.
         let persoon = {
-            index: personen.length,
+
             voornaam: voornaamtxt,
             familienaam: familienaamtxt,
             geboortedatum: geboortedatumtxt,
@@ -21,20 +21,24 @@ const bewaarBewerktePersoon = () => {
             aantalKinderen: aantalKinderentxt,
         }
         personen.push(persoon);
+
+        let lstPersonen = document.getElementById("lstPersonen");
+        while(lstPersonen.hasChildNodes()) { //heeft de lijst nog kinderen?
+            lstPersonen.removeChild(lstPersonen.firstChild)
+        }
+        for (let i = 0; i < personen.length; i++) {
+            let option = document.createElement("option")
+            option.appendChild(document.createTextNode(personen[i].voornaam + " " + personen[i].familienaam))
+            option.setAttribute("value", JSON.stringify(personen[i]))
+            lstPersonen.appendChild(option)
+
+        }
+    }
+    else {
+        persoonBewerken()
     }
 
-    let lstPersonen = document.getElementById("lstPersonen");
-    while(lstPersonen.hasChildNodes())
-    {
-        lstPersonen.removeChild(lstPersonen.firstChild)
-    }
-    for (let i = 0; i < personen.length; i++) {
-        let option = document.createElement("option")
-        option.appendChild(document.createTextNode(personen[i].voornaam + " " + personen[i].familienaam))
-        option.setAttribute("value", JSON.stringify(personen[i]))
-        lstPersonen.appendChild(option)
 
-    }
 
     // valideer alle input data en controleer of er geen errors meer zijn
 
@@ -43,17 +47,19 @@ const bewaarBewerktePersoon = () => {
         // een bestaande persoon in de lijst passen we aan
 
     // zorg ervoor dat de naam en voornaam ook aangepast en/of zichtbaar zijn in de lijst na updaten
-};
+}
 
 // Event listener (btnNieuw click)
 const bewerkNieuwePersoon = () => {
     console.log("Klik op de knop nieuw");
+
     clearAllErrors();
     document.getElementById("txtVoornaam").value = "";
     document.getElementById("txtFamilienaam").value = "";
     document.getElementById("txtGeboorteDatum").value = "";
     document.getElementById("txtEmail").value = "";
     document.getElementById("txtAantalKinderen").value = "";
+    nieuwPersoon = false;
 };
 
 const persoonLijstKlik = () => {
@@ -61,12 +67,36 @@ const persoonLijstKlik = () => {
     const index = lstPersonen.selectedIndex
     const option = lstPersonen.options[index];
     let selectPersoon = JSON.parse(option.value);
-
     document.getElementById("txtVoornaam").value = selectPersoon.voornaam;
     document.getElementById("txtFamilienaam").value = selectPersoon.familienaam;
     document.getElementById("txtGeboorteDatum").value = selectPersoon.geboortedatum;
     document.getElementById("txtEmail").value = selectPersoon.email;
     document.getElementById("txtAantalKinderen").value = selectPersoon.aantalKinderen;
+    nieuwPersoon = true;
+}
+
+const persoonBewerken = () => {
+    if (valideer() === true) {
+        let lstPersonen = document.getElementById("lstPersonen");
+        const index = lstPersonen.selectedIndex
+        const option = lstPersonen.options[index]
+
+        let voornaamtxt = document.getElementById("txtVoornaam").value
+        let familienaamtxt = document.getElementById("txtFamilienaam").value
+        let geboortedatumtxt = document.getElementById("txtGeboorteDatum").value
+        let emailtxt = document.getElementById("txtEmail").value
+        let aantalKinderentxt = document.getElementById("txtAantalKinderen").value
+
+        let bewerktPersoon = {
+            voornaam: voornaamtxt,
+            familienaam: familienaamtxt,
+            geboortedatum: geboortedatumtxt,
+            email: emailtxt,
+            aantalKinderen: aantalKinderentxt,
+        }
+        personen[option.id] = bewerktPersoon;
+        option.text = bewerktPersoon.voornaam + " " + bewerktPersoon.familienaam;
+    }
 }
 
 // onze setup functie die de event listeners registreert
