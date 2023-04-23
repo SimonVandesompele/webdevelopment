@@ -52,6 +52,7 @@ const bewaarBewerktePersoon = () => {
                 email: emailtxt,
                 aantalKinderen: aantalKinderentxt,
             }
+            personen.push(bewerktPersoon)
             personen[option.id] = bewerktPersoon;
             option.text = bewerktPersoon.voornaam + " " + bewerktPersoon.familienaam;
         }
