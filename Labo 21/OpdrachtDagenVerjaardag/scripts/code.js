@@ -1,5 +1,5 @@
 const setup = () => {
-    let geboortedatum = new Date('07/22/2004');
+    let geboortedatum = new Date('07/13/2004');
     let vandaag = new Date();
 
     const aantalDagen = () =>{
