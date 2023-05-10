@@ -1,0 +1,23 @@
+.tafelKnop {
+    border-radius: 4px;
+    border-color: grey;
+}
+
+.tabel{
+    border: solid 1px black;
+    width: 300px;
+     margin: 10px;
+    display: inline-block;
+ }
+
+ .header{
+     background-color: darkblue;
+     color: white;
+     padding: 10px;
+ }
+ .rij{
+     padding: 10px;
+ }
+ .rij:nth-child(odd){
+     background-color: lightgrey;
+ }
